@@ -1,23 +1,5 @@
 # Movuino Wifi with OSC
 
-## Presentation
-
-Movuino is a wireless sensor board. It includes an accelerometer, a gyroscope and a magnetometer.  
-Here is a code template to stream those data from the board to your computer using Wifi, and then to stream them to any application using Open Sound Control:
-* Presentation:  http://opensoundcontrol.org/
-* Reference: http://opensoundcontrol.org/spec-1_0
-
-## Content
-Here you will find:
-* **1_Movuino_FirmwareOSC/Arduino** this folder contains the firmware for the Movuino. You can edit and use it with the Arduino software;
-* **2_MovuinoDesktop_OSC** this one contains template to receive the data from Movuino on various application:
- * Python
- * Max/MSP
- * Processing
- * Unity
- * Pure Data Extended
- * to be continued... (sounds so intense)
-
 ## Installation
   
 ### Movuino (1_Movuino_FirmwareOSC/)
@@ -46,8 +28,3 @@ Here you will find:
   * Upload firmware and check on the Arduino monitor window if everything is good!
   * You can shut down (partially) and turn on the Movuino by pressing the button during 1 second.
   * **You can also send message to the Movuino, also using OSC.**
-  
-### Movuino desktop application (2_MovuinoDesktop_OSC/)
-Check the README file into each folders.  
-![](https://media.giphy.com/media/SDogLD4FOZMM8/giphy.gif)
-
