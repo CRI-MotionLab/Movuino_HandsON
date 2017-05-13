@@ -1,4 +1,4 @@
 # Movuino HandsON
 
 Download link for Movuino desktop interface:
-* MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
+* MAC OSX: https://www.dropbox.com/s/jio092s5tqzc18i/MovuinoInterface_MacOSX.zip?dl=0
