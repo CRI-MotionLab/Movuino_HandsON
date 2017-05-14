@@ -25,4 +25,5 @@ MuBu is a Max/MSP package developed by IRCAM. It gives Max objects to easily sto
    * **On Windows**
      * paste the MuBuForMax folder into /Documents/Max 7/Packages (or in the installation folder in \Max 7\resources\packages)
      * launch or restart Max and that's it.
- * Then run the **MovuinoInterface_MaxCollective.mxf** file **OR** download the original MAX/MSP project: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/Movuino_Interface_Project.zip
+ * Then run the **MovuinoInterface_MaxCollective.mxf** file
+ * **Bonus** original MAX/MSP project: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/Movuino_Interface_Project.zip
