@@ -1,9 +1,9 @@
-# Movuino Interface / Build applications
+# Applications
 
 Download link for Movuino desktop interface:
 * MAC OSX: https://www.dropbox.com/s/jio092s5tqzc18i/MovuinoInterface_MacOSX.zip?dl=0
 
-# Movuino Interface / Max patch
+# Max patch file
 
 Movuino Interface is made with Max/MSP, you can run the original patch or a maxcollective file.
 To run all the functionnalities you will also need to install the Mubu For Max package.
