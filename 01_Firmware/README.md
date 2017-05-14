@@ -2,7 +2,6 @@
 
 ## Installation
   
-### Movuino (1_Movuino_FirmwareOSC/)
 * Download and install the Arduino software: https://www.arduino.cc/en/Main/Software
 * Download and install the CP2014 driver: http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 * Inside Arduino
