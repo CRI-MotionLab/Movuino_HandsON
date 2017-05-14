@@ -7,7 +7,9 @@ void setup() {
 
 void draw() {
   // RECEIVE DATA
-  println("Movuino data:", movuino.ax, movuino.ay, movuino.az, movuino.gx, movuino.gy, movuino.gz);
+  println("Movuino accelerometer data:", movuino.ax, movuino.ay, movuino.az);
+  println("Movuino gyroscope data:", movuino.gx, movuino.gy, movuino.gz);
+  println("Movuino magnetometer data:", movuino.mx, movuino.my, movuino.mz);
   println("Movuino repetitions:", movuino.repAcc, movuino.repGyr, movuino.repMag);
   println("Movuino gesture recognition:", movuino.xmmGestId, movuino.xmmGestProg);
   println("-------------------------");
