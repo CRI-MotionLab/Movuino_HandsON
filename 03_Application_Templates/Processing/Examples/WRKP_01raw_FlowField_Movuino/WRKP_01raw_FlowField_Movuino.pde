@@ -1,12 +1,6 @@
 /*
  * This example is based on the FlowField example of the Generative Typography example
  * Here is the link of the original source: https://github.com/AmnonOwed/CAN_GenerativeTypography
- * 
- * In this sketch, the typo is generated with bubbles
- * For this part we only use the mouse:
- * the more you go away from the center of the screen the more you excite the bubbles
- * and so the more the text is visible
- * the bubbles tend to follow the mouse cursor
  */
 
 // Color swatch

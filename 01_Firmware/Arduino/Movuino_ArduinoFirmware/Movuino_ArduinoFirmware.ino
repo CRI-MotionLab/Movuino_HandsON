@@ -110,9 +110,9 @@ void loop() {
     if(!digitalRead(pinVibro)){
       // SEND MOVUINO DATA
       OSCMessage msg("/movuinOSC"); // create an OSC message on address "/movuinOSC"
-      msg.add(splitFloatDecimal(ax / 32768.0));   // add acceleration X data as message
-      msg.add(splitFloatDecimal(ay / 32768.0));   // add acceleration Y data
-      msg.add(splitFloatDecimal(az / 32768.0));   // add ...
+      msg.add(splitFloatDecimal(-ax / 32768.0));   // add acceleration X data as message
+      msg.add(splitFloatDecimal(-ay / 32768.0));   // add acceleration Y data
+      msg.add(splitFloatDecimal(-az / 32768.0));   // add ...
       msg.add(splitFloatDecimal(gx / 32768.0));
       msg.add(splitFloatDecimal(gy / 32768.0));
       msg.add(splitFloatDecimal(gz / 32768.0));    // you can add as many data as you want
