@@ -16,7 +16,7 @@
     * OSC
     * MPU6050
       * for this one you need to make a correction in the library file. Go to Arduino/libraries/MPU6050/ and edit the file "MPU6050.h" (open it in NotePad, SublimeText, NotePad++ or anykind of text editor).
-        * line 58, replace the line: `#define MPU6050_DEFAULT_ADDRESS MPU6050_ADDRESS_AD0_LOW`
+        * line 54, replace the line: `#define MPU6050_DEFAULT_ADDRESS MPU6050_ADDRESS_AD0_LOW`
         * **by:** `#define MPU6050_DEFAULT_ADDRESS MPU6050_ADDRESS_AD0_HIGH`
   * Restart Arduino and follow instructions inside the code (ip, rooter, password, port...)
      * `const char * ssid = "my_box_name";` set the name of your wifi network
