@@ -39,10 +39,9 @@ void draw() {
   gx = movuino.gx;
   gy = movuino.gy;
   gz = movuino.gz;
-  //!\\  axis coordinates with magnetometer (Movuino only)
-  mx = movuino.my;
-  my = movuino.mx;
-  mz = -movuino.mz;
+  mx = movuino.mx;
+  my = movuino.my;
+  mz = movuino.mz;
   
   // Refresh screen
   background(255);
