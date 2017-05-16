@@ -97,7 +97,7 @@ void loop() {
     accelgyro.getMotion9(&ax, &ay, &az, &gx, &gy, &gz, &mx, &my, &mz); // Get all 9 axis data (acc + gyro + magneto)
     //---- OR -----//
     //accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz); // Get only axis from acc & gyr
-
+    
     //delay(5);
     magnetometerAutoCallibration();
 
@@ -116,9 +116,9 @@ void loop() {
       msg.add(splitFloatDecimal(gx / 32768.0));
       msg.add(splitFloatDecimal(gy / 32768.0));
       msg.add(splitFloatDecimal(gz / 32768.0));    // you can add as many data as you want
-      msg.add(splitFloatDecimal(mx / 100.0));
       msg.add(splitFloatDecimal(my / 100.0));
-      msg.add(splitFloatDecimal(mz / 100.0));
+      msg.add(splitFloatDecimal(mx / 100.0));
+      msg.add(splitFloatDecimal(-mz / 100.0));
       Udp.beginPacket(hostIP, portOut); // send message to computer target with "hostIP" on "port"
       msg.send(Udp);
       Udp.endPacket();
