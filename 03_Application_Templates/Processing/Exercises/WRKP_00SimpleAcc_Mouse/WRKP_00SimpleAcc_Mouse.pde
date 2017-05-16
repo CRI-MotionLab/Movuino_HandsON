@@ -31,6 +31,4 @@ void draw(){
   // Point
   fill(c3);
   ellipse(X, Y,2*r,2*r);
-  
-  
 }
