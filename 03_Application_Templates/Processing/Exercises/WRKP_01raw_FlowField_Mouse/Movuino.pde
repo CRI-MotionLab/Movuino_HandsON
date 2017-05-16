@@ -36,10 +36,8 @@ public class Movuino implements Runnable {
   boolean repAcc = false;
   boolean repGyr = false;
   boolean repMag = false;
-  int xmmGestId;
-  float xmmGest1;
-  float xmmGest2;
-  float xmmGest3;
+  int xmmGestId = 0;
+  float xmmGestProg;
 
   public Movuino(String ip_, int portin_, int portout_) {
     this.ip = ip_;
@@ -69,7 +67,6 @@ public class Movuino implements Runnable {
       this.my = this.rawData[7];
       this.mz = this.rawData[8];
       
-      //this.repAcc = 
       delay(5); // regulation
     }
   }
@@ -130,11 +127,10 @@ public class Movuino implements Runnable {
       }
     }
     if (theOscMessage.checkAddrPattern("/xmm")) {
-      if (theOscMessage.checkTypetag("ifff")) {
+      if (theOscMessage.checkTypetag("if")) {
         this.xmmGestId = theOscMessage.get(0).intValue();
-        this.xmmGest1 = theOscMessage.get(1).floatValue();
-        this.xmmGest2 = theOscMessage.get(2).floatValue();
-        this.xmmGest3 = theOscMessage.get(3).floatValue();
+        this.xmmGestProg = theOscMessage.get(1).floatValue();
+        this.xmmGestProg = constrain(this.xmmGestProg,0,1);
         return;
       }
     }
