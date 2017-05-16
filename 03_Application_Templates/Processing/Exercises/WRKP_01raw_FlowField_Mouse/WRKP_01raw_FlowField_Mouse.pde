@@ -55,7 +55,7 @@ void draw() {
   int particleDensity;
   
   float x_ = (mouseX - width/2) / float(width/2);
-  float y_ = -(mouseY - height/2) / float(height/2);
+  float y_ = (mouseY - height/2) / float(height/2);
   globalEnergy = (pow(x_,2) + pow(y_,2)) / 2;
   angleDirection = getOrientationAngle(x_, y_);
   particleDensity = round(random(2) + 8*globalEnergy);
@@ -93,11 +93,7 @@ float getOrientationAngle(float x_, float y_) {
   float angle_ = 0.0f;
   if (x_ != 0) {
     if (x_>0) {
-      if (y_>=0) {
-        angle_ = atan(y_/x_);
-      } else {
-        angle_ = atan(y_/x_) + TWO_PI;
-      }
+      angle_ = atan(y_/x_);
     } else {
       angle_ = atan(y_/x_) + PI;
     }

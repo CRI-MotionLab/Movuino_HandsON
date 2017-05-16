@@ -23,7 +23,7 @@ class Particle {
 
   void update() {
     // Update Position
-    PVector vel = PVector.fromAngle(-this.angle);
+    PVector vel = PVector.fromAngle(this.angle);
     loc.add(vel);
     
     // Update life time

@@ -56,7 +56,7 @@ void draw() {
   float normGyr = pow(movuino.gx, 2) + pow(movuino.gy, 2) + pow(movuino.gz, 2);  
   globalEnergy = normGyr/3;
   particleDensity = round(random(2) + 8*globalEnergy);  
-  angleDirection = getOrientationAngle(movuino.ax, movuino.ay);
+  angleDirection = PI - getOrientationAngle(movuino.ax, movuino.ay);
   // ----------------------------------------------------------------------------------------------
   
   // Manage particles creation
@@ -92,10 +92,7 @@ float getOrientationAngle(float x_, float y_) {
   if (x_ != 0) {
     if (x_>0) {
       if (y_>=0) {
-        angle_ = atan(y_/x_);
-      } else {
-        angle_ = atan(y_/x_) + TWO_PI;
-      }
+        angle_ = atan(y_/x_);}
     } else {
       angle_ = atan(y_/x_) + PI;
     }
