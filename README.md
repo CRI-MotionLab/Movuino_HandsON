@@ -12,12 +12,12 @@ Here you will find:
 * **01_Firmware** this folder contains the firmware for the Movuino. You can edit and use it with the Arduino software;
 * **02_DesktopInterface** this one contains an interface developped to visualize and handle Movuino data. The interface re-stream all those data on your computer allowing you to use it directly with predifined templates.
 * **03_Application_Templates** this one contains template to receive the data from the Movuino interface on various application:
- * Python27
- * Max/MSP
- * Processing
- * Unity
- * Pure Data Extended
- * other comming soon...
+   * Python27
+   * Max/MSP
+   * Processing
+   * Unity
+   * Pure Data Extended
+   * other comming soon...
 
 ## Installation
   
