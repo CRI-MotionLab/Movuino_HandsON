@@ -18,7 +18,7 @@
 // Set your wifi network configuration here
 char * ssid = "my_box_name";                     // your network SSID (name of the wifi network)
 char * pass = "my_password";                     // your network password
-char * hostIP =  "MY COMPUTER IP ADDRESS";       // IP address of the host computer
+char * hostIP =  "192.168.0.0";       // IP address of the host computer
 const unsigned int portOut = 7400;               // port on which data are sent (send OSC message)
 const unsigned int portIn = 7401;                // local port to listen for UDP packets (receive OSC message)
 char movuinoIP[4];
