@@ -41,12 +41,15 @@ Here you will find:
      * `const char * hostIP = "192.168.0.0";` set the ip address of **YOUR COMPUTER** which is also connected to the same Wifi network and on which you will receive Movuino data
   * Upload firmware and check on the Arduino monitor window if everything is good!
   
+### Movuino interface (02_DesktopInterface/)
+The folder contains the Max patch used to create the application. If you have Max install on your computer it can be a good option, otherwise you can simply download the application:
+* WINDOWS: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_Windows.zip
+* MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
+
 ### Movuino desktop application (2_MovuinoDesktop_OSC/)
 Check the README file into each folders.  
 ![](https://media.giphy.com/media/SDogLD4FOZMM8/giphy.gif)
 
 
 
-Download link for Movuino desktop interface:
-* WINDOWS: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_Windows.zip
-* MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
+
