@@ -46,7 +46,7 @@ The folder contains the Max patch used to create the application. If you have Ma
 * WINDOWS: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_Windows.zip
 * MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
 
-### Movuino desktop application (2_MovuinoDesktop_OSC/)
+### Application templates (03_Application_Templates/)
 Check the README file into each folders.  
 ![](https://media.giphy.com/media/SDogLD4FOZMM8/giphy.gif)
 
