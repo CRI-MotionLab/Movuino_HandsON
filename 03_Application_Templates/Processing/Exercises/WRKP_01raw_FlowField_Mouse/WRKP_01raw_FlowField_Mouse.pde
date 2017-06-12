@@ -50,13 +50,15 @@ void draw() {
   
   // ----------------------------------------------------------------------------------------------
   // Exercise: change those variables to adapt the behavior of the bubbles with the Movuino movement
-  float globalEnergy;
-  float angleDirection;
-  int particleDensity;
+  float globalEnergy;    // valeur varie entre 0 et 1
+  float angleDirection;  // valeur varie entre 0 et TWO_PI // entre 0 et 6,28
+  int particleDensity;   // valeur varie entre 0 et 10
   
   float x_ = (mouseX - width/2) / float(width/2);
   float y_ = (mouseY - height/2) / float(height/2);
-  globalEnergy = (pow(x_,2) + pow(y_,2)) / 2;
+  
+  globalEnergy = pow(movuino.gx,2) + pow(movuino.gy,2) + pow(movuino.gz,2);
+  globalEnergy = 4 * globalEnergy / 3;
   angleDirection = getOrientationAngle(x_, y_);
   particleDensity = round(random(2) + 8*globalEnergy);
   // ----------------------------------------------------------------------------------------------
