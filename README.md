@@ -48,7 +48,7 @@ Here you will find:
 ### Movuino interface (02_DesktopInterface/)
 The folder contains the Max patch used to create the application. If you have Max install on your computer it can be a good option, otherwise you can simply download the application:
 * WINDOWS: https://drive.google.com/file/d/0B2oVfPg1m1UmQmNSM041bGdTTDg/view?usp=sharing
-* MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
+* MAC OSX: https://drive.google.com/file/d/0B2oVfPg1m1UmY0FvQVhTWUxhRnM/view?usp=sharing
 
 ### Application templates (03_Application_Templates/)
 Contains application template directly working with the Movuino Interface
