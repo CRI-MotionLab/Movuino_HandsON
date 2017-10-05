@@ -9,12 +9,6 @@ This template shows how to communicate with the Movuino using OSC protocole. You
   * Install pip
     * copy the file `get-pip.py` into your Python libraries folder and run the command `python get-pip.py` inside this folder
     * on Windows, add the folder `C:\[pythondir]\scripts` into your `System Environment Variables`
-  * Numpy: This library allows better data manipulation, especially using matrix and vectors.
-    * On Macintosh
-      * Go to your terminal and type the command lin `sudo pip install numpy`;
-      * Press "enter", type your password and feel the magic.
-    * On Windows
-      * Open your terminal with administrator rights and run command `python pip install numpy`
   * pyOSC: this one is not available with `pip` command, you have to install it manually
     * Download here: https://pypi.python.org/pypi/pyOSC
     * Unzip the folder and paste it into your Python libraries folder.
