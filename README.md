@@ -47,7 +47,10 @@ The folder contains the Max patch used to create the application. If you have Ma
 * MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
 
 ### Application templates (03_Application_Templates/)
+Contains application template directly working with the Movuino Interface
 
+### Application templates without interface (04_Application_Templates_NoInterface/)
+Contains application template working without the Movuino Interface, you may need some individual set-up. You will just receive the raw data and send back message to the Movuino. You'll not get advanced functions such as machine learning gesture recognition.
 
 
 
