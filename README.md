@@ -18,6 +18,10 @@ Here you will find:
    * Unity
    * Pure Data Extended
    * other comming soon...
+* **04_Application_Templates_NoInterface** this one contains template to receive the data from the Movuino on various application:
+   * Python27
+   * Max/MSP
+   * Processing
 
 ## Installation
   
