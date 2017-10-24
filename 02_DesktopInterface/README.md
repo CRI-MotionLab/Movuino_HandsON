@@ -1,8 +1,9 @@
 # Applications
 
 Download link for Movuino desktop interface:
-* WINDOWS: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_Windows.zip
-* MAC OSX: https://dl.dropboxusercontent.com/u/22837472/MOVUINO/MovuinoInterface_MacOSX.zip
+* WINDOWS: https://drive.google.com/file/d/0B2oVfPg1m1UmQmNSM041bGdTTDg/view?usp=sharing
+* MAC OSX: https://drive.google.com/file/d/0B2oVfPg1m1UmY0FvQVhTWUxhRnM/view?usp=sharing
+  * //!!\\ You should get an error message saying the file is damaged: go to System Preference / Security and confidentiality and choose "Allow downloaded applications from anywhere". Re-open the file and say that you want to open it (don't be afraid, the file is safe). Once it's done you can't set your preferences to the previous ones.
 
 # Max patch file
 
