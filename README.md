@@ -33,7 +33,7 @@ Here you will find:
     * If your computer OS version is old (like Lion on Mac) you may need to install the older version of the driver: http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 * Inside Arduino
   * Install the card ESP8266 following those instructions: https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon
-    * **//!\\ SELECT VERSION 2.3.0, NOT FURTHER //!\\**
+    * **/!\ SELECT VERSION 2.3.0, NOT FURTHER /!\**
  * Go to Tools/Board, select "Adafruit HUZZAH ESP8266" with:
       * CPU Frequency: 80 MHz
       * Flash Size: 4M (3M SPIFFS)
