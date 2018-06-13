@@ -86,7 +86,12 @@ public class Movuino implements Runnable {
   
   void vibroNow(boolean isVibro_) {
     OscMessage myOscMessage = new OscMessage("/vibroNow"); // create a new OscMessage with an address pattern
-    myOscMessage.add(isVibro_); // add a value to the OscMessage
+    if(isVibro_){
+      myOscMessage.add(1); // add a value to the OscMessage
+    }
+    else{
+      myOscMessage.add(0); // add a value to the OscMessage
+    }
     
     if(myMovuinoLocation != null){
       oscP5Movuino.send(myOscMessage, myMovuinoLocation); // send the OscMessage to a remote location specified in myNetAddress
