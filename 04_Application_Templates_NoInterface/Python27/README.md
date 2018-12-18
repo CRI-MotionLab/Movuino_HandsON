@@ -10,7 +10,7 @@ This template shows how to communicate with the Movuino using OSC protocole. You
     * copy the file `get-pip.py` into your Python libraries folder and run the command `python get-pip.py` inside this folder
     * on Windows, add the folder `C:\[pythondir]\scripts` into your `System Environment Variables`
   * pyOSC: this one is not available with `pip` command, you have to install it manually
-    * Download here: https://pypi.python.org/pypi/pyOSC
+    * Download here: https://github.com/ptone/pyosc (or https://pypi.python.org/pypi/pyOSC -> not tested!)
     * Unzip the folder and paste it into your Python libraries folder.
       * On Macintosh: /Library/Python/2.7/site-packages
       * On Windows: C:\Python27\Lib\site-packages
