@@ -16,7 +16,7 @@ PGraphics pg;
 
 long timer0;
 int time = 500;
-int maxParticles = 1000; // the maximum number of active particles
+int maxParticles = 500; // the maximum number of active particles
 
 void setup() {
   size(1000, 450, P2D);
@@ -33,12 +33,14 @@ void setup() {
   background(BACKGROUND_COLOR);
 
   // MOVUINO
-  callMovuino("127.0.0.1", 3010, 3011); // do not change values if using the Movuino interface
+  callMovuino("127.0.0.1", 3000, 3001); // do not change values if using the Movuino interface
 
   timer0 = millis();
 }
 
 void draw() {
+  //movuino.printInfo(); // uncomment to print sensor information in the console
+  
   // Clear background
   background(BACKGROUND_COLOR);
   
@@ -49,7 +51,7 @@ void draw() {
   
   float normGyr = pow(movuino.gx, 2) + pow(movuino.gy, 2) + pow(movuino.gz, 2);  
   globalEnergy = normGyr/3;
-  particleDensity = round(random(2) + 8*globalEnergy);  
+  particleDensity = round(random(2) + 50*globalEnergy);  
   angleDirection = PI - getOrientationAngle(movuino.ax, movuino.ay);
   // ----------------------------------------------------------------------------------------------
   

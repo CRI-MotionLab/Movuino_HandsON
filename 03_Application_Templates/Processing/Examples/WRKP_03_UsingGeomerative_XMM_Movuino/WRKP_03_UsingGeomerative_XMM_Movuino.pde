@@ -32,10 +32,12 @@ void setup() {
   // extract paths and points from the base shape using the above Segmentator settings
   allPaths = shape.getPointsInPaths();
   
-  callMovuino("127.0.0.1", 3010, 3011);
+  callMovuino("127.0.0.1", 3000, 3001); // do not change values if using the Movuino interface
 }
 
 void draw() {
+  //movuino.printInfo(); // uncomment to print sensor information in the console
+  
   // --------------------------------------------------------------------------
   // --------------------------------------------------------------------------
   float globalEnergy;   // affect color
@@ -75,7 +77,7 @@ void draw() {
   // dynamically set the 'opposite' point based on the current frameCount
   int fc = int(frameCount * nextPointSpeed);  
   stroke(c_);
-  strokeWeight(0.75);
+  strokeWeight(3);
   RPoint[] singlePath = allPaths[curGlif];
   beginShape(LINES);
   progGlif = constrain(progGlif,0,1);

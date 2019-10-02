@@ -6,10 +6,12 @@ color c3 = color(245, 91, 85, 255);
 
 void setup() {
   size(500, 500);
-  callMovuino("127.0.0.1", 3010, 3011);
+  callMovuino("127.0.0.1", 3000, 3001); // do not change values if using the Movuino interface
 }
 
 void draw(){
+  //movuino.printInfo(); // uncomment to print sensor information in the console
+  
   background(255);
   int r = 15;
   float X = width/2 * (1 + movuino.ax);
